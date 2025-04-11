@@ -2,16 +2,60 @@
 h1{
     color: black
     font: size 30px;
+    font-family: "montserrat black"
+}
+h2{
+    color: black;
+    font-size: 20px;
+    font-family:"montserrat medium" ;
+}
+h3{
+    color: black;
+    font-size: 15px;
+    font-family: "montserrat regular";
+}
+p{
+    color: black;
+    font-size:12px;
+    font-family: "montserrat regular"
 }
 .botonera{
     width: 1200px;
     height: 90px;
     background-color: black;
-    font-size: small;
-    color: beige;
+    font-size: 15px;
+    font-family: "montserrat medium"
 }
 #cabecera{
     background-color: beige;
     width: 1200px;
-    height: 1200px;
+    height: 1300px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: antiquewhite;
+}
+a:hover{
+    color: aquamarine;
+    font-size: medium;
+}
+@font-face {
+    font-family: "montserrat bold";
+    src: url(fonts/Montserrat-Bold.ttf);format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat medium";
+    src: url(fonts/Montserrat-Medium.ttf); format ('true type')
+    font-weight: medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat regular";
+    src: url(fonts/Montserrat-Regular.ttf); format ('true type')
+    font-weight: regular;
+    font-style: normal;
 }
