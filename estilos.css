@@ -17,30 +17,67 @@ h3{
 p{
     color: black;
     font-size:12px;
-    font-family: "montserrat regular"
+    font-family: "montserrat regular"}
+
+.botonera {
+    width: 1440px;
+    height: 80px;
+    background-color: #1d3edd;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
 }
-.botonera{
-    width: 1200px;
-    height: 90px;
-    background-color: black;
+.botonera ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
     font-size: 15px;
-    font-family: "montserrat medium"
+    font-family: "montserrat medium";
 }
-#cabecera{
-    background-color: beige;
-    width: 1200px;
-    height: 1300px;
-}
+
 a{
     text-decoration: none;
 }
 a:link{
-    color: antiquewhite;
+    color: #f3f0eb;
 }
 a:hover{
-    color: aquamarine;
+    color: #d3feb6;
     font-size: medium;
 }
+.logo {
+    height: 60px;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+
+#cabecera{
+    background-color:#f3f0eb;
+    width: 1440px;
+    height: 1300px;}
+
+ .contenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 710px 100px;
+ }
+
+ .contenido-imagen img {
+        object-fit: cover;
+        margin-right: 30px;
+    }
+    
+.contenido-texto {
+        max-width: 400px;
+        text-align: left;
+    }
+
 @font-face {
     font-family: "montserrat bold";
     src: url(fonts/Montserrat-Bold.ttf);format('truetype');
